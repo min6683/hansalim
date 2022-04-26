@@ -1022,7 +1022,7 @@ body {
     height: 100%;
 }
 
-
+.sw-visual {}
 
 .sw-visual .swiper-wrapper .swiper-slide a {
     position: relative;
@@ -1563,6 +1563,7 @@ body {
     margin: 0 auto;
 }
 
+.sw-popular {}
 
 
 
@@ -1730,7 +1731,9 @@ body {
     position: relative;
     display: block;
 }
-
+.good-tag-red {
+    background-color: #e14949;
+}
 /* 브랜드관 */
 .brand {
     position: relative;
@@ -2402,7 +2405,7 @@ body {
     padding-left: 40px;
 }
 
-
+.comm-box:first-child {}
 
 .comm-box:last-child {
     border-right: 0;
