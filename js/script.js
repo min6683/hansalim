@@ -257,7 +257,7 @@ window.onload = function () {
     let data_title = [];
     // HTTP Request: 서버에 자료를 요청하는 것
     // HTTP Response: 서버에서 응답 오는 것
-    fetch('../data.json')
+    fetch('https://min6683.github.io/hansalim/data.json')
     .then(res => res.json())
     .then(result => {
         for(let i = 0; i < result.length; i++){
