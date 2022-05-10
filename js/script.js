@@ -1,4 +1,17 @@
 $(document).ready(function () {
+    // 모달
+    let modal_close = $('.modal-close');
+    let modal = $('.modal');
+    
+    modal_close.click(function(){
+        modal.hide();
+    });
+
+    let modal_bt = $('.modal-bt');
+    modal_bt.click(function(){
+        modal.show();
+    });
+
     // 비주얼 모달창
     let visual_modal_open = $(".sw-visual-bt");
     let visual_modal_close = $(".visual-modal-close");
